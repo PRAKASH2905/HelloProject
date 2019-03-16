@@ -33,8 +33,8 @@ public class CalcTest {
 
     @test
 	public void test111() {
-calcumul pp=new calcumul();
-calculator cl=new calculator();	
+Calcumul pp=new Calcumul();
+Calculator cl=new Calculator();	
 int res=pp.mul();
 int res1=cl.add();
        assertEquals("Result - Fail", 9, 9);
